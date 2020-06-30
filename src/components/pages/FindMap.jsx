@@ -7,6 +7,7 @@ function FindMap() {
                 <div className="maping" style={{ width: "100%" }}>
                     <h3 style={{ color: "black" }}>Find Us</h3>
                     <iframe
+                        title="indonesia"
                         width="50%"
                         height="300"
                         src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(Main%20kuy)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
