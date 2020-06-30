@@ -3,6 +3,7 @@ import "./AboutProduct.css";
 import Moba1 from "../assets/images/moba.jpg";
 import Moba2 from "../assets/images/moba1.jpg";
 import Moba3 from "../assets/images/moba3.jpg";
+
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function AboutProduct() {
