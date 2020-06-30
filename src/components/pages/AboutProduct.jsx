@@ -11,7 +11,7 @@ function AboutProduct() {
                 <div className="about">
                     <div className="about-img">
                         <div className="img-mobile">
-                            <img src={Moba1} width="250px" />
+                            <img src={Moba1} alt="moba" width="250px" />
                         </div>
                         <div className="star">
                             <span className="fa fa-star checked"></span>
@@ -24,7 +24,7 @@ function AboutProduct() {
                     </div>
                     <div className="about-img">
                         <div className="img-mobile">
-                            <img src={Moba2} width="250px" />
+                            <img src={Moba2} alt="moba1" width="250px" />
                         </div>
                         <div className="star">
                             <span className="fa fa-star checked"></span>
@@ -37,7 +37,7 @@ function AboutProduct() {
                     </div>
                     <div className="about-img">
                         <div className="img-mobile">
-                            <img src={Moba3} width="250px" />
+                            <img src={Moba3} alt="moba2" width="250px" />
                         </div>
                         <div className="star">
                             <span className="fa fa-star checked"></span>

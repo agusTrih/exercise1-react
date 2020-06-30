@@ -2,7 +2,7 @@ import React from "react";
 // css
 import "./header.css";
 // image
-import ImagesOne from "../assets/images/container.jpg";
+
 import Undraw from "../assets/images/undraw (5).svg";
 function Header() {
     return (
@@ -19,6 +19,7 @@ function Header() {
                         <li className="logo-header">
                             <img
                                 className="logo-img"
+                                alt="image"
                                 src={Undraw}
                                 width="60px"
                             />

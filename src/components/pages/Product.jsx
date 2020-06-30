@@ -10,7 +10,7 @@ function Product() {
                 <div class="product-section">
                     <div class="img-pro">
                         <div class="pro-image">
-                            <img src={Drawing} width="100px" />
+                            <img src={Drawing} alt="draw" width="100px" />
                         </div>
                         <p class="pro-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -20,7 +20,7 @@ function Product() {
                     </div>
                     <div class="img-pro">
                         <div class="pro-image">
-                            <img src={Drawing} width="100px" />
+                            <img src={Drawing} alt="draw" width="100px" />
                         </div>
                         <p class="pro-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -30,7 +30,7 @@ function Product() {
                     </div>
                     <div class="img-pro">
                         <div class="pro-image">
-                            <img src={Drawing} width="100px" />
+                            <img src={Drawing} alt="draw" width="100px" />
                         </div>
                         <p class="pro-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
