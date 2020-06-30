@@ -3,6 +3,8 @@ import "./AboutProduct.css";
 import Moba1 from "../assets/images/moba.jpg";
 import Moba2 from "../assets/images/moba1.jpg";
 import Moba3 from "../assets/images/moba3.jpg";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function AboutProduct() {
     return (
         <div>
@@ -14,11 +16,21 @@ function AboutProduct() {
                             <img src={Moba1} alt="moba" width="250px" />
                         </div>
                         <div className="star">
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
                         </div>
                         <p className="text-image">Estes as Tank</p>
                     </div>
@@ -27,11 +39,21 @@ function AboutProduct() {
                             <img src={Moba2} alt="moba1" width="250px" />
                         </div>
                         <div className="star">
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
                         </div>
                         <p className="text-image">Alucard as Fighter</p>
                     </div>
@@ -40,11 +62,21 @@ function AboutProduct() {
                             <img src={Moba3} alt="moba2" width="250px" />
                         </div>
                         <div className="star">
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star"></span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faStar} />
+                            </span>
                         </div>
                         <p className="text-image">Grock as Tank</p>
                     </div>
