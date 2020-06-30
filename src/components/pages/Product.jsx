@@ -5,34 +5,34 @@ import Drawing from "../assets/images/undraw1.svg";
 function Product() {
     return (
         <div>
-            <section class="product" id="product">
+            <section className="product" id="product">
                 <h2>Product</h2>
-                <div class="product-section">
-                    <div class="img-pro">
-                        <div class="pro-image">
+                <div className="product-section">
+                    <div className="img-pro">
+                        <div className="pro-image">
                             <img src={Drawing} alt="draw" width="100px" />
                         </div>
-                        <p class="pro-text">
+                        <p className="pro-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Cum iste, id voluptatem nesciunt similique
                             nihil
                         </p>
                     </div>
-                    <div class="img-pro">
-                        <div class="pro-image">
+                    <div className="img-pro">
+                        <div className="pro-image">
                             <img src={Drawing} alt="draw" width="100px" />
                         </div>
-                        <p class="pro-text">
+                        <p className="pro-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Cum iste, id voluptatem nesciunt similique
                             nihil
                         </p>
                     </div>
-                    <div class="img-pro">
-                        <div class="pro-image">
+                    <div className="img-pro">
+                        <div className="pro-image">
                             <img src={Drawing} alt="draw" width="100px" />
                         </div>
-                        <p class="pro-text">
+                        <p className="pro-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Cum iste, id voluptatem nesciunt similique
                             nihil

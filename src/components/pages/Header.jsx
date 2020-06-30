@@ -19,7 +19,7 @@ function Header() {
                         <li className="logo-header">
                             <img
                                 className="logo-img"
-                                alt="image"
+                                alt="heading"
                                 src={Undraw}
                                 width="60px"
                             />
