@@ -1,5 +1,8 @@
 import React from "react";
 import "./AboutProduct.css";
+import Moba1 from "../assets/images/moba.jpg";
+import Moba2 from "../assets/images/moba1.jpg";
+import Moba3 from "../assets/images/moba3.jpg";
 function AboutProduct() {
     return (
         <div>
@@ -8,7 +11,7 @@ function AboutProduct() {
                 <div className="about">
                     <div className="about-img">
                         <div className="img-mobile">
-                            <img src="/assets/img/moba.jpg" width="250px" />
+                            <img src={Moba1} width="250px" />
                         </div>
                         <div className="star">
                             <span className="fa fa-star checked"></span>
@@ -21,7 +24,7 @@ function AboutProduct() {
                     </div>
                     <div className="about-img">
                         <div className="img-mobile">
-                            <img src="/assets/img/moba1.jpg" width="250px" />
+                            <img src={Moba2} width="250px" />
                         </div>
                         <div className="star">
                             <span className="fa fa-star checked"></span>
@@ -34,7 +37,7 @@ function AboutProduct() {
                     </div>
                     <div className="about-img">
                         <div className="img-mobile">
-                            <img src="/assets/img/moba3.jpg" width="250px" />
+                            <img src={Moba3} width="250px" />
                         </div>
                         <div className="star">
                             <span className="fa fa-star checked"></span>

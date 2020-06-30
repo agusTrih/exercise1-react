@@ -1,0 +1,20 @@
+/* product */
+.product {
+    background-color: rgb(34, 4, 82);
+    padding: 60px;
+}
+.product-section {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.img-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
