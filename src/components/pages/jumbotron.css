@@ -1,0 +1,14 @@
+/* container */
+.container {
+    background-image: url(../assets/images/container2.jpg);
+    background-size: cover;
+    height: 350px;
+    padding: 100px;
+}
+#title {
+    padding-top: 20px;
+    color: white;
+}
+.text {
+    margin-top: 20px;
+}
