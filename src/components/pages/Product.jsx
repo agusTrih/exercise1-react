@@ -6,9 +6,9 @@ function Product() {
     return (
         <div>
             <section className="product" id="product">
-                <h2>Product</h2>
+                <h2 data-aos="fade-up">Product</h2>
                 <div className="product-section">
-                    <div className="img-pro">
+                    <div data-aos="fade-up" className="img-pro">
                         <div className="pro-image">
                             <img src={Drawing} alt="draw" width="100px" />
                         </div>
@@ -18,7 +18,7 @@ function Product() {
                             nihil
                         </p>
                     </div>
-                    <div className="img-pro">
+                    <div data-aos="fade-up" className="img-pro">
                         <div className="pro-image">
                             <img src={Drawing} alt="draw" width="100px" />
                         </div>
@@ -28,7 +28,7 @@ function Product() {
                             nihil
                         </p>
                     </div>
-                    <div className="img-pro">
+                    <div data-aos="fade-up" className="img-pro">
                         <div className="pro-image">
                             <img src={Drawing} alt="draw" width="100px" />
                         </div>

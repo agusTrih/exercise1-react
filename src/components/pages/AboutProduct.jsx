@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function AboutProduct() {
     return (
         <div>
-            <section className="about-1" id="about">
+            <section data-aos="fade-up" className="about-1" id="about">
                 <h2>About Product</h2>
                 <div className="about">
                     <div className="about-img">
